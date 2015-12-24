@@ -67,11 +67,6 @@ function fade(this_box) {
 
    e.src = "images/" + this_box + "_on.png";
 
-   if (last_box == 'contact') {
-      reset_form();
-      toggle_contact_form(false);
-   }
-
    last_box = this_box;
    
 }
